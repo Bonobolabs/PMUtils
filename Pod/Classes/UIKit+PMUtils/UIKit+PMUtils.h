@@ -32,18 +32,7 @@
 #import "UICollectionView+PMUtils.h"
 #import "UICollectionViewFlowLayout+PMUtils.h"
 #import "UIColor+PMUtils.h"
-#import "UIDevice+PMUtils.h"
-#import "UIGestureRecognizer+PMUtils.h"
-#import "UIImage+PMUtils.h"
-#import "UIImageView+PMUtils.h"
-#import "UINavigationController+PMUtils.h"
-#import "UIResponder+PMUtils.h"
-#import "UIScreen+PMUtils.h"
+
 #import "UIScrollView+PMUtils.h"
-#import "UITableView+PMUtils.h"
-#import "UITableViewCell+PMUtils.h"
-#import "UITableViewHeaderFooterView+PMUtils.h"
-#import "UIView+PMUtils.h"
-#import "UIViewController+PMUtils.h"
 
 #endif
