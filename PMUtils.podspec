@@ -7,8 +7,8 @@ s.license     = 'MIT'
 s.author      = { "Adam Darton" => "adam@bonobolabs.com" }
 s.source      = { :git => "https://github.com/bonobolabs/#{s.name}.git", :tag => s.version.to_s }
 s.platform    = :ios, '7.0'
-s.public_header_files = 'Pod/Classes/**/*.h'
-s.source_files = 'Pod/Classes/**/*.{h,m}'
+s.public_header_files = 'Pod/**/*.h'
+s.source_files = 'Pod/**/*.{h,m}'
 s.requires_arc = true
 
 
