@@ -106,6 +106,12 @@
 				
 				NSInteger toItem = indexPathNearestToBoundsCenter.item + delta;
 				
+				// Crash prevention
+                		// TODO: Find out why this is possible...
+		                if (toItem > NSNotFound - 1) {
+                		    toItem = 0;
+		                }
+				
 				NSIndexPath *toIndexPath = [NSIndexPath indexPathForItem:toItem inSection:0];
 				
 				[self PM_centerIndexPath:toIndexPath animated:animated notifyDelegate:YES];
