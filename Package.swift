@@ -18,7 +18,7 @@ let package = Package(
 
         .target(
             name: "PMUtils",
-            publicHeadersPath: ".",
+            publicHeadersPath: "PMCircularCollectionView",
             cSettings: [.headerSearchPath("PMCircularCollectionView"),.headerSearchPath("PMProtocolInterceptor"),.headerSearchPath("UIKit+PMUtils"),.headerSearchPath("Foundation+PMUtils")]
         ),
     ]
